@@ -1,0 +1,3 @@
+# Dockerfile for PostgreSQL
+FROM postgres:13
+COPY ./sql/init.sql /docker-entrypoint-initdb.d/
